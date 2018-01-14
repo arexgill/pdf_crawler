@@ -2,11 +2,11 @@
 This is a readme document for PDF crawler API
 
 1. API endpoint that are used:
- a. /crawl/api/uploader (POST) receives the PDF document to crawl
- b. /crawl/web_upload web for for testing the uploader
- c. /crawl/api/docs (GET) - returns all the uploaded documents (ids and names) up to that point
- d. /crawl/api/docs/<doc_id>/urls (GET) - returns all the URL's of a specified document (by ID)
- e. /crawl/api/urls (GET) - returns all the urls in the system
+ * /crawl/api/uploader (POST) receives the PDF document to crawl
+ * /crawl/web_upload web for for testing the uploader
+ * /crawl/api/docs (GET) - returns all the uploaded documents (ids and names) up to that point
+ * /crawl/api/docs/<doc_id>/urls (GET) - returns all the URL's of a specified document (by ID)
+ * /crawl/api/urls (GET) - returns all the urls in the system
 
 
 2. Assumptions:
